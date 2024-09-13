@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(236, 237, 238);
+}
+
+.logo{
+    font-size: 40px;
+    margin-left: 10px;
+    color: white;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b3a37;
+    height: 80px;
+    
+}
+.lista{
+    display: flex;
+    list-style: none;
+}
+
+.items{
+    
+    margin-right: 25px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+
+}
+
+/* ACERCA DE MI */
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+
+}
+.contenedor_acerca{
+    width: 80%;
+}
+.contenedor_avatar{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+.avatar{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+/* BANNER */
+
+.banner{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    height: 200px;
+    background-color: #3b3a37;
+}
+.titulo_dos{
+    color: #92751f;
+    margin-left: 20px;
+}
+
+li{
+    color: white;
+    list-style: none;
+}
+
+.logo_footer{
+    position: fixed;
+    bottom: 25px;
+    right: 45px;
+    font-size: 20px;
+    color: #92751f;
+    cursor: pointer;
+
+}
+
+/* TARJETAS */
+
+.section_tarjetas{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 10px;
+}
+.section_tarjetas > h2{
+    color: #92751f;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.articulo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+}
+.img_articulo{
+    border-radius: 8px;
+    width: 90%;
+    height: 280px;
+}
+
+.link_art{
+    list-style: none;
+    text-decoration: none;
+}
